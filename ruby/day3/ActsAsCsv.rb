@@ -37,10 +37,10 @@ module ActsAsCsv
       end
     end
 
-    def each(&block)
+    def each
       csv_contents.each do |row|
         csvRow = CsvRow.new(headers, row)       
-        block.call csvRow
+        yield csvRow
       end              
     end      
       
