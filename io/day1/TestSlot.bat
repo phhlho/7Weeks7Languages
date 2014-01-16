@@ -1,0 +1,1 @@
+..\IoLanguage\bin\io_static.exe TestSlot.io
