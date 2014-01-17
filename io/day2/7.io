@@ -55,7 +55,7 @@ Array load := method(filename,
 	for (y, 0, ySize - 1,
 		yList := lines at(y) split(",")
 		for (x, 0, yList size - 1,
-			newArray set(x,y, yList at(x))
+			newArray set(x,y, yList at(x) asNumber)
 		)
 	)
 	newArray		

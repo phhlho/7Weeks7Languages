@@ -1,1 +1,1 @@
-..\IoLanguage\bin\io_static.exe %1.io
+..\IoLanguage\bin\io.exe %1.io
