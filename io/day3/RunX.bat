@@ -1,0 +1,1 @@
+..\IoLanguage\bin\io.exe %1.io
