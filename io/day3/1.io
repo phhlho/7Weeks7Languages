@@ -1,4 +1,4 @@
-# Enhance the xml example program to add spaces to show indentation
+// Enhance the xml example program to add spaces to show indentation
 Builder := Object clone
 Builder forward := method(	
 	tabs := 0

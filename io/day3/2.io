@@ -1,3 +1,5 @@
+// Extend lists to work with square brackets
+
 List squareBrackets := method(	
 	if (call target size == 0) then(return call message arguments) else(return call target at(call message argAt(0) asString asNumber))
 )
